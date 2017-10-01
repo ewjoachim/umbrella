@@ -12,6 +12,8 @@ documentation of `Raincoat <https://pypi.org/pypi/raincoat>`_.
 
 Thank you !
 
+.. image:: https://media.giphy.com/media/3ov9jHDLFzHroRfBT2/giphy.gif
+
 Usage
 -----
 
