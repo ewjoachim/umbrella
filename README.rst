@@ -1,6 +1,9 @@
 Umbrella
 ========
 
+.. image:: https://badge.fury.io/py/raincoat-umbrella.svg
+    :target: https://pypi.org/pypi/raincoat-umbrella
+
 This package is not very interesting :)
 
 I feel a little bad to upload a "useless" package to the real PyPI, but the
