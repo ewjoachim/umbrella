@@ -62,7 +62,7 @@ class Drop(object):
             char = chr(self.window.inch(self.y, self.x) & (2 ** 8 - 1))
             if char != " ":
                 raise self.FellOnSomething
-            self.draw(self.char)
+            self.draw(char=self.char)
         except curses.error:
             raise self.FellOnSomething
 
@@ -111,7 +111,7 @@ def main():
     try:
         curses.wrapper(loop)
     except ScreenTooSmall:
-        print("Screen too small")
+        print("Screen is too small")
         sys.exit(1)
 
 
