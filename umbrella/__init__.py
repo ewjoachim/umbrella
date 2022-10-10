@@ -168,7 +168,7 @@ def loop(full_screen):
         if width < MIN_SIZE[0] or height < MIN_SIZE[1]:
             raise ScreenTooSmall
 
-        if len(drops) < height * height * DROPS_RATIO:
+        if len(drops) < height * width * DROPS_RATIO:
             drops.add(Drop(window))
 
         for drop in list(drops):
